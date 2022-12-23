@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>Travel reservation form</h1>
+    <h3>*denotes mandotory</h3>
+    <form id="registration_form" method="POST">
+        <label for="">Full name*:</label><br>
+        <input type="text" name="full_name" placeholder="FirstName LastName" value=""><br><br>
+        <label for="">Email address*:</label><br>
+        <input type="email" name="email_address" placeholder="EMAIL_ADDRESS" value=""><br><br>
+        <label for="">Select Tour Package*:</label><br>
+        <select name="" id="">
+            <option value="Shusha">Shusha</option>
+            <option value="Agdam">Agdam</option>
+            <option value="Kelbecer">Kelbecer</option>
+        </select><br><br>
+        <label for="">Arrival date*:</label><br>
+        <input type="date" name="arv_dt" placeholder="mm/dd/yyyy" value=""><br><br>
+        <label for="">Number of person*:</label><br>
+        <input type="text" name="person" placeholder="UNKNOWN TYPE" value=""><br><br>
+        <label for="">What would you want to avail?:*</label><br>
+        Boarding <input type="checkbox" name="facilities" value="boarding"><br>
+        Fooding <input type="checkbox" name="facilities" value="fooding"><br>
+        Sight seeing <input type="checkbox" name="facilities" value="sight seeing"><br><br>
+        <label for="">Discount Coupon code:</label><br>
+        <input type="text" name="dis code" placeholder="UNKNOWN TYPE" value=""><br><br>
+        <label for="">Terms and condition*</label><br>
+        <input type="radio" name="tnc" value="agree">I agree
+        <input type="radio" name="tnc" value="disagree">I disagree <br><br>
+        <button type="submit" class="btn btn-large btn-primary" name="submit">Complete reservation</button>
+    </form>
+</body>
+
+</html>
